@@ -1,0 +1,36 @@
+<h2 id='encryption_and_decryption'>Encryption and Decryption</h2>
+
+<p>Data that can be read and interpreted without any special parameters is known has <em>plaintext</em>. The method of hiding plaintext in such a way as to hide it&#8217;s value is called <em>encryption</em>. Encrypting plaintext generates unreadable strings known as <em>ciphertext</em>. The main use for encryption is to ensure that information is hidden from anyone who should not be seeing it, Even if one were to gain access to the information, they would still be at a loss as the data is completely unreadable.</p>
+
+<h2 id='what_is_cryptography'>What is cryptography?</h2>
+
+<p>Cryptography is a way of using maths to securely encrypt and decrypt data. Cryptography enables the user to store sensitive information and transmit it across insecure networks without exposing anything. Encrypted data is <strong>completely</strong> useless to anyone who does not know how to decrypt it.</p>
+
+<p><em>Cryptanalysis</em> however, is the science behind analyzing and breaking down secure communication. Typical cryptanalysis involves an interesting combination of analytical reasoning, pattern finding, mathematical tools and determination.</p>
+
+<p><em>Cryptology</em> embraces both Cryptogtaphy and Cryptanalysis. Conventional</p>
+
+<h2 id='caesars_cipher'>Caesar&#8217;s Cipher</h2>
+
+<p>The most popular example of cryptography in history is <strong>Caesar&#8217;s Cipher</strong>; an encryption method wherein letters were moved around in the alphabet, usually shifted up or down using a <em>key</em>. Say the key is <strong>3</strong>. The person reading the message would decrypt it by &#8221;<em>shifting</em>&#8221; the alphabet up by three places. Explanation and example:</p>
+
+<h4 id='plaintext'>Plaintext</h4>
+
+<pre><code>ABCDEFGHIJKLMNOPQRSTUVWXYZ</code></pre>
+
+<h4 id='ciphertext'>Ciphertext</h4>
+
+<pre><code>DEFGHIJKLMNOPQRSTUVWXYZABC</code></pre>
+
+<p>So&#8230; using this key, the ciphertext for the word <em>VOKINS</em> would be <em>YRNLQV</em></p>
+
+<h4 id='explanation'>Explanation</h4>
+
+<pre><code>0&gt;   V O K I N S
+1&gt;   W P L J O T
+2&gt;   X Q M K P U
+3&gt;   Y R N L Q V</code></pre>
+
+<p>To move from step to step, we change each letter in the word to be one further along. As the <em>key</em> is <strong>3</strong>, we do this <strong>3</strong> times.</p>
+
+<p><em>Part two coming soon&#8230;</em></p>
