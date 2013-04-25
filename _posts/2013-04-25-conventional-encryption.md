@@ -3,7 +3,7 @@ layout: post
 title: "Conventional Encryption"
 description: "Brief tutorial outlining the basics of Conventional Encryption"
 category: "Cryptography"
-tags: []
+tags: ["Cryptography","Keys"]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "Cryptography Basics 1"
 description: "A breif tutorial outlining the basics of crpyotgraphy."
 category: "Cryptography"
-tags: []
+tags: ["Cryptography", "Keys", "Caesar"]
 ---
 {% include JB/setup %}
 
